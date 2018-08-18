@@ -181,7 +181,7 @@ createRestaurantHTML = (restaurant) => {
   image.src = image_name+"_small.jpg";
   image.srcset = image_name+"_small.jpg 400w, "+image_name+" 800w"
   image.sizes = "(max-width:550px) 100vw, 40vw";
-  image.alt = restaurant.name;  
+  image.alt = restaurant.name+" restaurant representative picture"; 
   
   
   
