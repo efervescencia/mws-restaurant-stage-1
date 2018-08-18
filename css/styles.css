@@ -155,20 +155,25 @@ header h1:hover, h1:focus {
   text-align: center;
   width:100%;
 }
-.filter-options select {
-  background-color: white;
-  border: 1px solid #fff;
+.filter-options label {
   font-family: Arial,sans-serif;
   font-size: 11pt;
   letter-spacing: 0;
   padding: 0 10px;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2%;
   height: 35px;
   display: block;
+  float: right;
 }
+
+.filter-options label select{
+  background-color: white;
+  border: 1px solid #fff;
+}
+
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
@@ -324,11 +329,11 @@ header h1:hover, h1:focus {
 /* ====================== Restaurant Filtering ====================== */
 
 .filter-options h2 {
-  width:90%;
+  width:92%;
 }
 
-.filter-options select {
-  width: 40%;
+.filter-options label {
+  width: 46%;
 }
 	
 /* ====================== Restaurant Listing ====================== */
@@ -398,7 +403,7 @@ margin-right: auto;
 .filter-options h2 {
   width:20%;
 }
-.filter-options select {
+.filter-options label {
   width: 20%;
   margin: 1%;
 }
