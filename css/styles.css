@@ -49,6 +49,17 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-transform: uppercase;
 }
+
+#footer h4 {
+	color: #ffff00;
+	display: inline;
+}	
+
+#footer h4:hover, h4:focus {
+	color: #3397db;
+	text-decoration: none;
+}
+	
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
